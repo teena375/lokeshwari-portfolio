@@ -71,12 +71,12 @@ export default function App() {
           </a>
 
           <a
-            href="/resume.pdf"
-            download="Gujjala_Lokeshwari_Resume.pdf"
-            className="px-6 py-2 rounded-xl border border-purple-400 hover:bg-purple-600 hover:scale-105 transition shadow-lg"
-          >
-            Download Resume
-          </a>
+  href="/lokeshwari_resume-cs.pdf"
+  download
+  className="px-6 py-2 rounded-xl border border-purple-400 hover:bg-purple-600 hover:scale-105 transition shadow-lg"
+>
+  Download Resume
+</a>
         </div>
       </section>
 
@@ -172,6 +172,10 @@ export default function App() {
             {
               title: "Used Car Price Prediction",
               desc: "XGBoost model with 15% MAE improvement and feature engineering.",
+            },
+            {
+              title: "Blog Website using PHP",
+              desc: "Developed a Blog webiste using CRID operations.",
             },
           ].map((proj, i) => (
             <motion.div
