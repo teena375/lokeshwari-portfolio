@@ -72,8 +72,16 @@ export default function App() {
 
           <a
   href="/lokeshwari_resume-cs.pdf"
+  target="_blank"
+  className="px-6 py-2 bg-purple-600 rounded-xl"
+>
+  View Resume
+</a>
+
+<a
+  href="/lokeshwari_resume-cs.pdf"
   download
-  className="px-6 py-2 rounded-xl border border-purple-400 hover:bg-purple-600 hover:scale-105 transition shadow-lg"
+  className="px-6 py-2 border border-purple-400 rounded-xl"
 >
   Download Resume
 </a>
